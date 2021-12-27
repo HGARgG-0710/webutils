@@ -23,7 +23,7 @@ class Youtube {
 		 * (although, their number is sometimes around 200).
 		 */
 		likedVideos: (n) => {
-			let videos = document.querySelectorAll(
+			const videos = document.querySelectorAll(
 				"html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-browse.style-scope.ytd-page-manager ytd-two-column-browse-results-renderer.style-scope.ytd-browse.grid.grid-disabled div#primary.style-scope.ytd-two-column-browse-results-renderer ytd-section-list-renderer.style-scope.ytd-two-column-browse-results-renderer div#contents.style-scope.ytd-section-list-renderer ytd-item-section-renderer.style-scope.ytd-section-list-renderer div#contents.style-scope.ytd-item-section-renderer ytd-playlist-video-list-renderer.style-scope.ytd-item-section-renderer div#contents.style-scope.ytd-playlist-video-list-renderer ytd-playlist-video-renderer.style-scope.ytd-playlist-video-list-renderer div#menu.style-scope.ytd-playlist-video-renderer ytd-menu-renderer.style-scope.ytd-playlist-video-renderer yt-icon-button#button.dropdown-trigger.style-scope.ytd-menu-renderer button#button.style-scope.yt-icon-button"
 			)
 
@@ -45,7 +45,7 @@ class Youtube {
 		 * May be a bit slower than Youtube.deletion.likedVideos(n) function.
 		 */
 		likedVideosMax: () => {
-			let videos = document.querySelectorAll(
+			const videos = document.querySelectorAll(
 				"html body ytd-app div#content.style-scope.ytd-app ytd-page-manager#page-manager.style-scope.ytd-app ytd-browse.style-scope.ytd-page-manager ytd-two-column-browse-results-renderer.style-scope.ytd-browse.grid.grid-disabled div#primary.style-scope.ytd-two-column-browse-results-renderer ytd-section-list-renderer.style-scope.ytd-two-column-browse-results-renderer div#contents.style-scope.ytd-section-list-renderer ytd-item-section-renderer.style-scope.ytd-section-list-renderer div#contents.style-scope.ytd-item-section-renderer ytd-playlist-video-list-renderer.style-scope.ytd-item-section-renderer div#contents.style-scope.ytd-playlist-video-list-renderer ytd-playlist-video-renderer.style-scope.ytd-playlist-video-list-renderer div#menu.style-scope.ytd-playlist-video-renderer ytd-menu-renderer.style-scope.ytd-playlist-video-renderer yt-icon-button#button.dropdown-trigger.style-scope.ytd-menu-renderer button#button.style-scope.yt-icon-button"
 			)
 
